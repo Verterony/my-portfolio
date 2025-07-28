@@ -131,14 +131,14 @@ footer a:hover {
 
 header .subtitle {
   font-weight: 600;
-  font-size: 0.8rem;
+  font-size: 1.2rem;
   color: #f3f4f6;
   margin-top: 0.5rem;
   margin-bottom: 1.2rem; /* повече разстояние под субтайтъра */
 }
 
 header .description {
-  font-size: 0.8rem;
+  font-size: 1.1rem;
   color: #60a5fa;
   margin-top: 0;        /* няма горен марджин, за да е близо до субтайтъра */
   margin-bottom: 0.4rem; /* по-малко разстояние под дескрипшъна */
@@ -199,7 +199,7 @@ header .description {
 
 @media (max-width: 768px) {
   header p {
-    font-size: 1rem;
+    font-size: 1.1rem;
     font-weight: 400;
     color: #9ca3af; /* може да остане същия */
     max-width: 90%; /* за да не е прекалено широк */
@@ -207,18 +207,11 @@ header .description {
   }
 }
 
-@media (max-width: 768px) {
-  .subtitle {
-    font-size: 2rem;  /* Намалява размера */
-    font-weight: 500; /* Запазва леко удебеляване */
-    margin-bottom: 0.8rem; /* Малко разстояние под субтайтъра */
-  }
-}
 
 /* Мобилни устройства */
 @media (max-width: 768px) {
   header h1 {
-    font-size: 1rem; /* Намаляване на размера на заглавието */
+    font-size: 1.2rem; /* Намаляване на размера на заглавието */
   }
 }
 
