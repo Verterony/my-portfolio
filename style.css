@@ -54,7 +54,7 @@ header p {
 
 .project-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-template-columns: repeat(3, 1fr);
   gap: 30px;
 }
 
@@ -146,3 +146,11 @@ header .description {
   margin-left: auto;
   margin-right: auto;
 }
+
+/* Мобилна версия: 2 на ред при ширина под 768px */
+@media (max-width: 768px) {
+  .project-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
