@@ -151,16 +151,12 @@ header .description {
 @media (max-width: 768px) {
   .project-grid {
     grid-template-columns: repeat(2, 1fr);
-  }
-
-@media (max-width: 768px) {
-  .project-grid {
-    grid-template-columns: repeat(2, 1fr);
     gap: 16px;
   }
 
   .project-card {
-    display: block; /* махаме flex, за да не се разтегля */
+    /* махаме flex, за да не се разтегля */
+    display: block;
     height: auto;
     min-height: auto;
     padding-bottom: 10px;
@@ -182,16 +178,15 @@ header .description {
   }
 
   .project-card a {
-    margin: 0 12px;
+    margin: 0 12px 12px;
     padding: 8px 12px;
     font-size: 0.9rem;
   }
 }
 
-
+/* Много малки екрани - 1 на ред */
 @media (max-width: 480px) {
   .project-grid {
     grid-template-columns: 1fr;
   }
 }
-
